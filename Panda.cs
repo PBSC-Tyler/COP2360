@@ -16,8 +16,11 @@ public class Panda
     public double WeightKg { get; set; }
 
     // Default constructor
-    public Panda() { }
-
+    public Panda() 
+    { 
+        Name = "Unknown";
+        Species = "Unknown";   
+    }        
     // Overloaded constructor
     public Panda(string name, string species, double weightKg)
     {
